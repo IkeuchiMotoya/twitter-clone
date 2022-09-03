@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  root 'application#hello'
+  get '/signup', to: 'users#new'
+  get '/index', to: 'tweet#index'
+  get '/show', to: 'tweet#show'
+  get '/new', to: 'tweet#new'
+
+  root 'tweet#home'
 end
