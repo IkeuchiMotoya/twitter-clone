@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.6'
 
 gem 'rails',        '5.1.6'
+gem 'bcrypt',       '3.1.12'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -39,4 +40,4 @@ end
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-#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
+#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
