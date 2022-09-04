@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/new', to: 'tweet#new'
 
   root 'tweet#home'
+  resources :users
 end
