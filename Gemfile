@@ -40,4 +40,4 @@ end
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-#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
+#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
